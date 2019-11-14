@@ -6,16 +6,17 @@ Spring:
     url:  jdbc:mysql://localhost:3306/eshopdb?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC
     username: julia
     password: julia
-#  hikari:
-#    minimum-idle: 5
-#      maximum-pool-size:  10
-#    idle-timeout: 30000
   jpa:
     show-sql: true
     properties:
       hibernate:
         dialect:  org.hibernate.dialect.MySQL5Dialect
         ddl-auto: update
+ hikari:
+  minimum-idle: 5
+  maximum-pool-size:  10
+  idle-timeout: 30000
+  
 #---
 #Spring:
 #  profiles: test

@@ -13,7 +13,7 @@ Spring:
         dialect:  org.hibernate.dialect.MySQL5Dialect
         ddl-auto: update
  hikari:
-  minimum-idle: 5
+  minimum-idle:
   maximum-pool-size:  10
   idle-timeout: 30000
   

@@ -1,6 +1,4 @@
----
-message: hello, julia
-Spring:
+spring:
  datasource:
   driver-class-name:  com.mysql.jdbc.Driver
   url:  jdbc:mysql://localhost:3306/eshopdb?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC

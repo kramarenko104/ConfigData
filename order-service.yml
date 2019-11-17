@@ -13,4 +13,4 @@ spring:
    hikari:
     minimum-idle: 5
     maximum-pool-size:  10
-    idle-timeout: 30000
+#     idle-timeout: 30000

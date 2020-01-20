@@ -8,7 +8,7 @@ eureka:
 spring:
  datasource:
   driver-class-name:  com.mysql.jdbc.Driver
-  url:  jdbc:mysql://localhost:3306/eshopdb?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC
+  url:  jdbc:mysql://localhost:3306/eshopdbMS?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC
   username: julia
   password: julia
  jpa:
